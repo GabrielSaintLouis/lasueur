@@ -19,7 +19,6 @@ header ul {
 header li {
     margin-right: 20px;
     list-style-type: none;
-
 }
 
 header li a {
@@ -32,6 +31,9 @@ header li a:hover {
     transition: 0.5s;
 }
 
+
+/* body */
+
 body {
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -39,3 +41,37 @@ body {
     background-color: #1C1C1C;
 }
 
+iframe {
+    height: 600px;
+    width: 1000px;
+}   
+
+/* footer */
+
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover,#angle-mort:hover {
+    color:#00FFEF;  
+    transition: 0.5s;
+}
